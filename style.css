@@ -1,0 +1,99 @@
+header {
+    margin: top 60px;
+}
+
+
+body {
+    margin: 0;
+    background-color: rgb(236, 230, 230);
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.item {
+    scroll-margin-top:8px ;
+
+}
+
+
+
+
+h1 {
+    color: aliceblue;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+.bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(2px);
+    
+
+   
+}
+
+.bg-text {
+    color: aliceblue;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+.custom-section {
+    padding: 50px;
+
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-text {
+    font-family: "Lora";
+
+font-family: "Open Sans";
+
+
+}
+footer {
+    background: rgb(10, 10, 10);
+
+    padding: 20px 0;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.home {
+    background-image: url("./imagnes/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg");
+
+
+}
